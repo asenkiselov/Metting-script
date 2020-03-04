@@ -12,7 +12,7 @@ def usage():
     print("        send_reminders 'date|Meeting Title|emails'")
     return 1
 
-def dow(date)
+def dow(date):
     dateobj = datetime.datetime.strptime(date, r"%d/%m/%Y")
     return dateobj.strftime("%A")
 
