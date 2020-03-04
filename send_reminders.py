@@ -13,7 +13,7 @@ def usage():
     return 1
 
 def dow(date):
-    dateobj = datetime.datetime.strptime(date, r"%d/%m/%Y")
+    dateobj = datetime.datetime.strptime(date, r"%Y-%m-%d")
     return dateobj.strftime("%A")
 
 def message_tamplate(date, title):
